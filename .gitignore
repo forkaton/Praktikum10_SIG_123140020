@@ -13,3 +13,7 @@ venv/
 
 # Docker
 .docker/
+docker-compose.yml
+
+# IDE
+.vscode/

@@ -116,17 +116,19 @@ Akses WebGIS di: **http://localhost:5173**
 # **Dokumentasi Hasil Implementasi**
 
 ## **1. Proses Deteksi YOLOv8 di Terminal**
-![alt text](<Screenshot 2026-05-06 130520.png>)
+![alt text](capture/img1.png)
+![alt text](capture/img2.png)
 
 ## **2. Visualisasi WebGIS Multi-Layer (AI + Database)**
-![alt text](<Screenshot 2026-05-06 134407.png>)
-![alt text](<Screenshot 2026-05-06 134359.png>)
-![alt text](<Screenshot 2026-05-06 134619.png>)
-![alt text](<Screenshot 2026-05-06 134718.png>)
+![alt text](capture/img3.png)
+![alt text](capture/img4.png)
+![alt text](capture/img7.png)
+![alt text](capture/img8.png)
 
 ## **3. Interaksi Pop-up Hasil Deteksi AI**
-![alt text](<Screenshot 2026-05-06 134438.png>)
-![alt text](<Screenshot 2026-05-06 134458.png>)
+![alt text](capture/img5.png)
+![alt text](capture/img6.png)
+
 
 # **Struktur Proyek**
 
