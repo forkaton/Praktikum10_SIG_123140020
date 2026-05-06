@@ -1,3 +1,6 @@
 .venv/
 .env
 __pycache__/
+*.tif
+*.tiff
+hasil_tile_*.jpg

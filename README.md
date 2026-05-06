@@ -1,201 +1,160 @@
-# **WebGIS Full-Stack: Auth & CRUD Management - Praktikum 9 SIG**
+# **WebGIS Full-Stack: Integrasi AI Spasial (YOLOv8) & WebGIS - Praktikum 10 SIG**
 
-Repositori ini berisi implementasi lengkap aplikasi **WebGIS berbasis full-stack** yang mengintegrasikan sistem autentikasi keamanan dan manajemen data spasial fasilitas publik secara dinamis. Proyek ini dibangun sebagai pemenuhan **Tugas Praktikum 9** mata kuliah **Sistem Informasi Geografis (SIG)** Institut Teknologi Sumatera, mencakup pengembangan **FastAPI (Backend)**, **React.js (Frontend)**, dan orkestrasi kontainer menggunakan **Docker**.
+Repositori ini berisi implementasi aplikasi **WebGIS berbasis full-stack** yang mengintegrasikan *Computer Vision* (AI) dengan pemetaan digital. Proyek ini dibangun sebagai pemenuhan **Tugas Praktikum 10** mata kuliah **Sistem Informasi Geografis (SIG)** Institut Teknologi Sumatera, mencakup proses ekstraksi citra satelit, pendeteksian objek menggunakan **YOLOv8**, transformasi koordinat spasial, dan visualisasi dinamis pada **React.js** bersanding dengan data PostgreSQL.
 
 ---
 
 ## **Oleh**
-**Anselmus Herpin Hasugian**  
+**Anselmus Herpin Hasugian**
 **NIM: 123140020**
 
 ---
 
-# **Pemenuhan Kriteria Tugas Praktikum 9**
+# **Pemenuhan Kriteria Tugas Praktikum 10**
 
-Proyek ini telah memenuhi seluruh kriteria evaluasi yang ditetapkan dalam modul **Hands-on Praktikum 9**:
+Proyek ini telah memenuhi seluruh kriteria evaluasi yang ditetapkan dalam modul **Hands-on Praktikum 10**:
 
-- [x] **Arsitektur Full-Stack & Monorepo**  
-      Pemisahan service backend dan frontend dalam satu repositori yang terorganisir.
+- [x] **Ekstraksi Citra Satelit (GeoTIFF)**
+  Penggunaan QGIS untuk mengambil citra satelit area Kampus ITERA/Way Huwi dengan resolusi tinggi yang memiliki metadata spasial (*georeferenced*).
 
-- [x] **Sistem Autentikasi JWT**  
-      Implementasi alur registrasi dan login menggunakan JSON Web Token (JWT) dan enkripsi kata sandi Bcrypt.
+- [x] **Pemrosesan Tiling & Deteksi Objek AI**
+  Penerapan teknik pemotongan gambar (*tiling*) berukuran 640x640 menggunakan Rasterio, dilanjutkan dengan deteksi kendaraan/orang menggunakan model Pre-trained YOLOv8 dari Ultralytics.
 
-- [x] **Operasi CRUD Lengkap**  
-      Fasilitas pengelolaan data (Tambah, Lihat, Ubah, Hapus) yang terintegrasi langsung dengan basis data spasial.
+- [x] **Transformasi Koordinat Spasial**
+  Konversi sistem koordinat piksel gambar ke sistem referensi koordinat bumi, serta transformasi CRS dari EPSG:3857 (*Pseudo-Mercator*) menjadi EPSG:4326 (*WGS 84*) menggunakan PyProj.
 
-- [x] **Frontend dengan Protected Routes**  
-      Implementasi AuthContext dan Private Routes pada React untuk memastikan peta hanya dapat diakses oleh pengguna terautentikasi.
+- [x] **Pembuatan Data GeoJSON Otomatis**
+  Ekspor hasil deteksi (titik tengah *bounding box*) beserta metadata objek (*class* dan *confidence*) secara terprogram ke dalam format `.geojson` standar.
 
-- [x] **Interaktivitas Peta**  
-      Visualisasi data GeoJSON pada peta Leaflet dengan fitur fly-to animasi dan panel kontrol berbasis Neon Glassmorphism.
-
-- [x] **Kontainerisasi Docker**  
-      Penggunaan Docker Compose untuk manajemen deployment yang konsisten di berbagai lingkungan kerja.
+- [x] **Visualisasi Multi-Layer Interaktif**
+  Menampilkan ratusan *marker* hasil deteksi AI di atas peta Leaflet (*Dark Mode*), berdampingan secara mulus dengan titik fasilitas umum yang ditarik langsung dari database PostgreSQL.
 
 ---
 
 # **Teknologi yang Digunakan**
 
+## **AI & Pemrosesan Spasial (Python)**
+
+- **Model AI:** YOLOv8 (Ultralytics)
+- **Spatial Data Processing:** Rasterio, PyProj
+- **Image Processing:** OpenCV, NumPy
+- **GIS Software:** QGIS (Pengambilan data XYZ Tiles Google Satellite)
+
 ## **Backend (Python)**
 
 - **Framework:** FastAPI
-- **Security:** Python-Jose (JWT), Passlib (Bcrypt)
-- **Database Driver:** Asyncpg & Python-Dotenv
+- **Database Driver:** Asyncpg
 - **Database:** PostgreSQL dengan ekstensi PostGIS
-
----
 
 ## **Frontend (JavaScript)**
 
 - **Library Utama:** React.js (Vite)
-- **Styling:** Tailwind CSS v4 (Custom Neon Glassmorphism)
 - **Mapping:** Leaflet.js & React-Leaflet
-- **Komunikasi Data:** Axios dengan interceptors
+- **Styling:** Tailwind CSS v4 (Custom Neon Glassmorphism)
 
 ---
 
-## **Infrastruktur**
+# **Alur Kerja (*Pipeline*) AI Spasial**
 
-- **Containerization:** Docker & Docker Compose
-
----
-
-# **Daftar Endpoint API**
-
-| Method | Endpoint | Deskripsi | Otorisasi |
-|--------|-----------|------------|------------|
-| `POST` | `/api/register` | Mendaftarkan pengguna baru ke sistem | Public |
-| `POST` | `/api/login` | Autentikasi pengguna dan mendapatkan token JWT | Public |
-| `GET` | `/api/fasilitas` | Mengambil seluruh data spasial fasilitas publik | Bearer Token |
-| `POST` | `/api/fasilitas` | Menambahkan titik fasilitas baru ke database | Bearer Token |
-| `PUT` | `/api/fasilitas/{id}` | Memperbarui informasi fasilitas berdasarkan ID | Bearer Token |
-| `DELETE` | `/api/fasilitas/{id}` | Menghapus data fasilitas dari sistem | Bearer Token |
+1. `aerial_image.tif` (GeoTIFF) dibaca secara aman menggunakan **Rasterio**.
+2. Citra dipotong menjadi grid kecil (640x640) menggunakan teknik *Tiling* ber-*overlap* untuk menghindari objek terpotong di pinggir.
+3. Model **YOLOv8** mendeteksi kendaraan dan objek lalu lintas di setiap potongan gambar.
+4. Titik tengah (*centroid*) setiap objek dikembalikan ke koordinat global gambar, lalu dikonversi menggunakan *Affine Transform* Rasterio (menghasilkan satuan Meter EPSG:3857).
+5. **PyProj** menerjemahkan titik meter tersebut menjadi Derajat Geografis Lintang dan Bujur (EPSG:4326).
+6. Titik spasial disimpan menjadi `hasil_deteksi_ai.geojson` di folder `public` frontend untuk kemudian dirender oleh **React Leaflet**.
 
 ---
 
-# **Persiapan Menjalankan Program (Docker Setup)**
+# **Persiapan Menjalankan Program (Local Setup)**
 
-Sangat disarankan menjalankan proyek ini menggunakan **Docker** untuk menghindari konflik dependensi versi Node.js atau Python di mesin lokal.
+Proyek ini dirancang untuk dapat dijalankan secara mandiri di *local environment* untuk mendemonstrasikan proses deteksi AI tanpa memerlukan kontainerisasi Docker.
 
 ---
 
 ## **1. Kloning Repositori**
 
 ```bash
-git clone https://github.com/forkaton/Praktikum9_SIG_123140020.git
-cd Praktikum9_123140020
+git clone https://github.com/forkaton/Praktikum10_SIG_123140020.git
+cd Praktikum10_SIG_123140020
 ```
 
----
+## **2. Menjalankan Pipeline AI Spasial**
 
-## **2. Konfigurasi Variabel Lingkungan**
-
-Pastikan file `.env` di dalam direktori backend sudah terkonfigurasi untuk akses database lokal melalui host gateway Docker:
-
-```env
-DB_HOST=host.docker.internal
-DB_PORT=5432
-SECRET_KEY=masukkan_secret_key_anda
-ALGORITHM=HS256
-```
-
----
-
-## **3. Build dan Menjalankan Kontainer**
-
-Jalankan perintah berikut untuk mengotomatisasi instalasi dependensi dan menjalankan server:
+Buka terminal dan masuk ke direktori backend. Aktifkan virtual environment Anda, lalu jalankan skrip deteksi:
 
 ```bash
-docker-compose up -d --build
+cd praktikum7_api
+# Pastikan (.venv) aktif
+pip install -r requirements.txt
+python spatial_ai.py
 ```
 
----
+> Tunggu hingga proses tiling dan deteksi selesai. Script akan menghasilkan file GeoJSON dengan ratusan data objek.
 
-## **4. Akses Aplikasi**
+## **3. Menjalankan Server Backend (FastAPI)**
 
-- **Web Interface:**  
-  http://localhost:5173
+Masih di direktori `praktikum7_api`, jalankan server untuk melayani data fasilitas dari database:
 
-- **API Documentation:**  
-  http://localhost:8000/docs
+```bash
+uvicorn main:app --reload
+```
+
+## **4. Menjalankan Frontend (React.js)**
+
+Buka tab terminal baru, masuk ke direktori frontend, dan jalankan server pengembangan:
+
+```bash
+cd frontend_sig_123140020
+npm install
+npm run dev
+```
+
+Akses WebGIS di: **http://localhost:5173**
 
 ---
 
 # **Dokumentasi Hasil Implementasi**
 
-Bagian ini berisi bukti fungsionalitas sistem WebGIS yang telah dikembangkan.
+## **1. Proses Deteksi YOLOv8 di Terminal**
+![alt text](<Screenshot 2026-05-06 130455-1.png>)
+![alt text](<Screenshot 2026-05-06 130520.png>)
 
----
+## **2. Visualisasi WebGIS Multi-Layer (AI + Database)**
+![alt text](<Screenshot 2026-05-06 134407.png>)
+![alt text](<Screenshot 2026-05-06 134359.png>)
+![alt text](<Screenshot 2026-05-06 134619.png>)
+![alt text](<Screenshot 2026-05-06 134718.png>)
 
-## **1. Antarmuka Autentikasi (Login & Register)**
-
-![Login Page](<capture/Screenshot 2026-04-22 221404.png>)
-![Login Page 2](<capture/Screenshot 2026-04-22 221414.png>)
----
-
-## **2. Tampilan Utama WebGIS (GeoJSON Layer)**
-![alt text](<capture/Screenshot 2026-04-22 221440.png>)
-
----
-
-## **3. Manajemen Data (Fitur CRUD)**
-![alt text](<capture/Screenshot 2026-04-22 221451.png>)
-![alt text](<capture/Screenshot 2026-04-22 221459.png>)
-![alt text](<capture/Screenshot 2026-04-22 221522.png>)
-![alt text](<capture/Screenshot 2026-04-22 221539.png>)
-![alt text](<capture/Screenshot 2026-04-22 221552.png>)
-![alt text](<capture/Screenshot 2026-04-22 221605.png>)
----
-
-## **4. Status Kontainer Docker**
-![alt text](<capture/Screenshot 2026-04-22 220341.png>)
-![alt text](<capture/Screenshot 2026-04-22 222142.png>)
----
+## **3. Interaksi Pop-up Hasil Deteksi AI**
+![alt text](<Screenshot 2026-05-06 134438.png>)
+![alt text](<Screenshot 2026-05-06 134458.png>)
 
 ---
 
 # **Struktur Proyek**
-
-```bash
-Praktikum9_123140020/
+Praktikum10_SIG_123140020/
 │
-├── backend/
+├── praktikum7_api/                       # Direktori Backend & AI Spasial
 │   ├── app/
-│   ├── requirements.txt
-│   ├── Dockerfile
-│   └── .env
+│   ├── spatial_ai.py                     # Script utama pipeline YOLOv8
+│   ├── aerial_image.tif                  # Citra GeoTIFF (Excluded in .gitignore)
+│   ├── main.py
+│   └── requirements.txt
 │
-├── frontend/
+├── frontend_sig_123140020/               # Direktori Frontend React
+│   ├── public/
+│   │   └── hasil_deteksi_ai.geojson      # File output dari spatial_ai.py
 │   ├── src/
 │   ├── package.json
-│   ├── vite.config.js
-│   └── Dockerfile
+│   └── vite.config.js
 │
-├── docker-compose.yml
 └── README.md
-```
 
 ---
 
-# **Fitur Utama Aplikasi**
+**Anselmus Herpin Hasugian**
+Teknik Informatika — Institut Teknologi Sumatera (ITERA)
 
-- 🛡️ Secure Authentication menggunakan JWT & Bcrypt
-- 🌍 Interactive WebGIS berbasis Leaflet & GeoJSON
-- 📌 Manajemen data fasilitas publik secara dinamis
-- 📝 Update dan edit data secara real-time
-- 🗑️ Penghapusan data terintegrasi dengan database
-- 🔒 Protected Routes untuk keamanan akses pengguna
-- ⚙️ Deployment terkontainerisasi dengan Docker Compose
-- ✨ Modern UI dengan konsep Neon Glassmorphism
+*Project ini dibuat untuk keperluan akademik pada mata kuliah Sistem Informasi Geografis (SIG).*
 
----
-
-
-**Anselmus Herpin Hasugian**  
-Teknik Informatika - Institut Teknologi Sumatera (ITERA)
-
-Project ini dibuat untuk keperluan akademik pada mata kuliah **Sistem Informasi Geografis (SIG)**.
-
----
-
-## **123140020 Anselmus Herpin Hasugian © 2026**
+*123140020 · Anselmus Herpin Hasugian © 2026*

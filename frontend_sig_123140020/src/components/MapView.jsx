@@ -22,6 +22,7 @@ function MapClickHandler({ onMapClick }) {
 
 function MapView() {
     const [geojsonData, setGeojsonData] = useState(null);
+    const [aiDetections, setAiDetections] = useState(null);
     const [refreshTrigger, setRefreshTrigger] = useState(0);
 
     const [activeAction, setActiveAction] = useState(null);
@@ -41,6 +42,16 @@ function MapView() {
         };
         fetchGeoJSON();
     }, [refreshTrigger]);
+
+    useEffect(() => {
+        fetch('/hasil_deteksi_ai.geojson')
+            .then((response) => response.json())
+            .then((data) => {
+                setAiDetections(data);
+                console.log("Data AI berhasil dimuat:", data);
+            })
+            .catch((error) => console.error("Gagal memuat data AI:", error));
+    }, []);
 
     const refreshMap = () => setRefreshTrigger(prev => prev + 1);
 
@@ -77,6 +88,18 @@ function MapView() {
                 setActiveAction('info');
             }
         });
+    };
+
+    const onEachAiFeature = (feature, layer) => {
+        if (feature.properties) {
+            const { class_name, confidence } = feature.properties;
+            layer.bindPopup(
+                `<div class="p-2 font-sans">
+                    <b class="text-indigo-400">Deteksi AI:</b> ${class_name.toUpperCase()}<br>
+                    <b class="text-emerald-400">Akurasi:</b> ${(confidence * 100).toFixed(1)}%
+                </div>`
+            );
+        }
     };
 
     const handleAddSubmit = async (e) => {
@@ -141,6 +164,23 @@ function MapView() {
 
                 {geojsonData && (
                     <GeoJSON data={geojsonData} pointToLayer={(f, ll) => L.circleMarker(ll, getStyle(f))} onEachFeature={onEachFeature} />
+                )}
+
+                {aiDetections && (
+                    <GeoJSON 
+                        data={aiDetections} 
+                        onEachFeature={onEachAiFeature} 
+                        pointToLayer={(feature, latlng) => {
+                            return L.circleMarker(latlng, {
+                                radius: 5,
+                                fillColor: "#ff7800",
+                                color: "#000",
+                                weight: 1,
+                                opacity: 1,
+                                fillOpacity: 0.8
+                            });
+                        }}
+                    />
                 )}
             </MapContainer>
 

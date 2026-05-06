@@ -1,0 +1,3 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}\\praktikum7_api\\.venv\\Scripts\\python.exe"
+}

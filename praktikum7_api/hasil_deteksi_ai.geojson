@@ -1,0 +1,6950 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2880218264076,
+          -5.340904106147363
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28922594836656,
+          -5.340836388788972
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.087
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29632667662803,
+          -5.340643420428371
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.067
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29803026835793,
+          -5.340755037745781
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.396
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29832100548929,
+          -5.340870927417263
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.088
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29830412939188,
+          -5.3407146639996
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.077
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29832134415909,
+          -5.340874539088406
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.065
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2980615772326,
+          -5.340755769761648
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2980727326145,
+          -5.3407555952585115
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30017208199693,
+          -5.340904464598918
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.075
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29838091330194,
+          -5.340915260885703
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.063
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29844827899522,
+          -5.340783900894633
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30017515205189,
+          -5.340904107800302
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.192
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30093871995216,
+          -5.339273428164422
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.095
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30064747991511,
+          -5.33912442223716
+        ]
+      },
+      "properties": {
+        "class_id": 5,
+        "class_name": "bus",
+        "confidence": 0.081
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30011750363148,
+          -5.340870094100001
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.064
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30306828930159,
+          -5.33974150060661
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30548005361877,
+          -5.3393387139213475
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.176
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30566057981156,
+          -5.3399078104957205
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.099
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30600503381848,
+          -5.339983594663705
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.091
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30544687702037,
+          -5.339766994045364
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.068
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30505149850376,
+          -5.33977199679153
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.063
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30543824034703,
+          -5.339229770394855
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.062
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30600086738518,
+          -5.339685844046888
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30682843418745,
+          -5.338541247710605
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.074
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3103500207959,
+          -5.338833627914083
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.068
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.312676433989,
+          -5.340501770356978
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.133
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31250907263683,
+          -5.340305342995454
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31516880794901,
+          -5.340489130680863
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.072
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31733667864951,
+          -5.340721643180983
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.208
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31794608985207,
+          -5.34079549531692
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.189
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3181280788708,
+          -5.3408177634738765
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.074
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31728812814883,
+          -5.339075467643563
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.071
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3176620995548,
+          -5.3406096112058234
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.067
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31788244482802,
+          -5.340824750682646
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.066
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31798279615842,
+          -5.340801431492919
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.065
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31766319193098,
+          -5.3404933292659384
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.055
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31766670468171,
+          -5.340618563466778
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.054
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31896790816495,
+          -5.339753257154974
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.125
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31794488636467,
+          -5.340795811972794
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.112
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32017854415211,
+          -5.339904081223911
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.062
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32190169382702,
+          -5.340941654064548
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.228
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32086356386645,
+          -5.339764397155849
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.062
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32189748879533,
+          -5.340942108150382
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.154
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32337408399496,
+          -5.338822359328223
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.057
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32253757309586,
+          -5.339939344365276
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.054
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28991359028734,
+          -5.342875988185101
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.133
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28999766438285,
+          -5.3428680281303755
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29000484103915,
+          -5.342781173088071
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28990576838076,
+          -5.342870350265604
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.055
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29802773266252,
+          -5.340772467220444
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.174
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29803926018398,
+          -5.340780242114193
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.098
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29804620908156,
+          -5.340793269959308
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.074
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30000889745395,
+          -5.341564155602368
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.148
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.299549410021,
+          -5.342332182676089
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30000749261826,
+          -5.341563968702435
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.089
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30077975603439,
+          -5.341753993011592
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.063
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29999220337974,
+          -5.341395586361245
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.051
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30504522149106,
+          -5.341726737743314
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.284
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30622778108605,
+          -5.34061285541679
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.062
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30590143381917,
+          -5.341021014295844
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.051
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31266204247824,
+          -5.340658819388329
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.088
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31323823486726,
+          -5.342735807615592
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.067
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31587756389976,
+          -5.341574156460709
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.148
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31654701316235,
+          -5.342901345598737
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3173373536175,
+          -5.340705842351762
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.094
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31587917184028,
+          -5.341915059005728
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.058
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31818527689505,
+          -5.341269534174073
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.063
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31796429428876,
+          -5.342706185153669
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.059
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31864141610961,
+          -5.342454726881591
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.054
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32178700185746,
+          -5.341738802880439
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32215512516136,
+          -5.341740426063986
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.206
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32351810084589,
+          -5.3414866277812
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.091
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32205585719494,
+          -5.341643321710093
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.081
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32203047688016,
+          -5.341078920914499
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.077
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32378091709776,
+          -5.342679971039951
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.086
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32387616710281,
+          -5.342701801100968
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.057
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28899060310935,
+          -5.344875222431561
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.122
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28857298998815,
+          -5.344823089554382
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.089
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28900810149476,
+          -5.3446440169671225
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.072
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2887904898894,
+          -5.344745002393281
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.067
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28912108558892,
+          -5.344330151372791
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.065
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2890128380104,
+          -5.34462474075004
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.065
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28841412358916,
+          -5.343941482018086
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.061
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28885259572078,
+          -5.344814411681897
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.058
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28832481440979,
+          -5.343912149821841
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.057
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28795552854777,
+          -5.343193115996468
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.054
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29121848545577,
+          -5.344898038031625
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.09
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29062920779457,
+          -5.344839899832731
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.088
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29120919919094,
+          -5.344912706821839
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.082
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29617213267157,
+          -5.34489582358053
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.198
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29613086428354,
+          -5.344711543581759
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.129
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29544188725507,
+          -5.344843769573382
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.104
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29559762793973,
+          -5.3448331624980225
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.077
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29552135963846,
+          -5.344840163828952
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.055
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29620028305885,
+          -5.344907436107203
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29612930558416,
+          -5.3447100637385905
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.156
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29617246185485,
+          -5.344895671983429
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29750487169872,
+          -5.344904734278557
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29605550458251,
+          -5.344845229817223
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.055
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29909228379026,
+          -5.3444939343409805
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.063
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30306656820433,
+          -5.343665405732326
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.142
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30512477617026,
+          -5.343705090956338
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.059
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30705071815566,
+          -5.343709046420442
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.458
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30704970190902,
+          -5.344244938487267
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.058
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30902710178538,
+          -5.343697885593508
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.275
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32004134777459,
+          -5.34492057830029
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3204391099054,
+          -5.344906916615594
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.126
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32004148390658,
+          -5.344920305803331
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.121
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3241895547943,
+          -5.342670842801169
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.059
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32448644946709,
+          -5.344766142873498
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.088
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2890115515157,
+          -5.34465279536074
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.096
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2889443531859,
+          -5.344969660351697
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.082
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28902628092548,
+          -5.344936423767926
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.069
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29632740400922,
+          -5.346843456908524
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.068
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30020987403887,
+          -5.346731779778519
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.055
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30094348436417,
+          -5.345405310289174
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30249457070823,
+          -5.34686143433088
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30704092471618,
+          -5.345671274843637
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30901729814786,
+          -5.345684035666745
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.108
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31108716698057,
+          -5.3456944766083305
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.101
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31765725477393,
+          -5.34687637084751
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.158
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31729463971647,
+          -5.346880961721775
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.117
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31763230064239,
+          -5.346864779610037
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.094
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31753920189773,
+          -5.346803918761887
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.079
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31751504024882,
+          -5.346797668116473
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.064
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3177384435113,
+          -5.346233545393099
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.058
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31729947714527,
+          -5.346858362728459
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31761750707979,
+          -5.346267409087884
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.051
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32499158896336,
+          -5.345076796148962
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.076
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32493480366333,
+          -5.345055904208918
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.058
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32518290278601,
+          -5.345291827546575
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28950692893737,
+          -5.34759870793063
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28900873804224,
+          -5.347661277612861
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.052
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29132442946289,
+          -5.348139707566697
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.067
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2911188443122,
+          -5.3476534656747825
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29733020700776,
+          -5.34714877277533
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30401709723148,
+          -5.348667159145577
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.082
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3032688681629,
+          -5.348389556395289
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30610694948089,
+          -5.348153380159362
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.263
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3063384197494,
+          -5.348215311492537
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.263
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3059030475702,
+          -5.348827370534161
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.088
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30615922380802,
+          -5.347989301589105
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.086
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30615109453912,
+          -5.348178538649974
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30616554202793,
+          -5.34821954225657
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.067
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30904152786277,
+          -5.3476858123824025
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.161
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3108116925217,
+          -5.347704464171503
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.112
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31204810038099,
+          -5.347349708882519
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31105541372034,
+          -5.347752297115236
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.063
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31402347582765,
+          -5.347982709273711
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31307839394762,
+          -5.347367537881296
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31217238609813,
+          -5.347334650474494
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31823786777647,
+          -5.348146528101303
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.086
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31825752092787,
+          -5.3481692073317
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.083
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31892103429334,
+          -5.3484309208552405
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.071
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32408734291435,
+          -5.346881329113322
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3233070935392,
+          -5.346984068599875
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.079
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.322871988436,
+          -5.348777695409457
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.068
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3245917035649,
+          -5.347367285692745
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.073
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32455705862651,
+          -5.347817307377181
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.061
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32458593188883,
+          -5.347314908395394
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.052
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29055411938289,
+          -5.350775829850582
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.061
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29444802380276,
+          -5.349712396818536
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.079
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29625726639061,
+          -5.350840400618528
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30221697748782,
+          -5.350791072532643
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.055
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30499520721577,
+          -5.349649650277489
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.065
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3093811567734,
+          -5.349799291255914
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3091391462368,
+          -5.349718555225146
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.085
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31103390451071,
+          -5.349630598778351
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.174
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31169819848581,
+          -5.34951706215482
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.081
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31409270582061,
+          -5.349776561081703
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31468998918102,
+          -5.35083298612827
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.189
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3149971201373,
+          -5.350798125980214
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.095
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31531923533582,
+          -5.350789231188713
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.071
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31480832013172,
+          -5.349416649542775
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.068
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31522903532498,
+          -5.350817778158403
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.067
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3150433210568,
+          -5.350859463886505
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.062
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31483494567472,
+          -5.35083126379412
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.058
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31501597643334,
+          -5.350819706634319
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31473524832332,
+          -5.350830942184699
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32013762724074,
+          -5.348977300560896
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.092
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32016772723253,
+          -5.348991353468056
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.242
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32017197572448,
+          -5.34894134812747
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.152
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32315721257761,
+          -5.349240897709071
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.152
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32359542879476,
+          -5.349343416932211
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.122
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32365463055615,
+          -5.349622422958438
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.105
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32297952665779,
+          -5.349116469651424
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.104
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32382904503935,
+          -5.349862396464054
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.092
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32394861368829,
+          -5.350326374457546
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.074
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32393261871347,
+          -5.349905468580141
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32362729767229,
+          -5.349485253007174
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.066
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32372897806829,
+          -5.349954493339123
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32227073708907,
+          -5.34900951939266
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.051
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32367596675483,
+          -5.349814440218435
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32433034141579,
+          -5.350589282645486
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.117
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2879793562516,
+          -5.352391192173724
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.151
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29066930032477,
+          -5.3525108572441615
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2903416103554,
+          -5.351431546509883
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.119
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29066747238525,
+          -5.35245229851321
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29296130027365,
+          -5.352825244149138
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.076
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29633766116308,
+          -5.352687892801183
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.185
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30027075397088,
+          -5.351446499030835
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.213
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30001753306006,
+          -5.351653233284884
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.168
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29939504346305,
+          -5.352843743005774
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.073
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2992626585449,
+          -5.352742057611344
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.066
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2996910162211,
+          -5.3513361520055955
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.051
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3000174575197,
+          -5.3516532826360415
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30219365195968,
+          -5.351042865223882
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30162910098998,
+          -5.351518634329671
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.065
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30094348077708,
+          -5.352778081530977
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.057
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30223538827178,
+          -5.350918083160265
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.052
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30064155366757,
+          -5.352845740425111
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.052
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30705646166854,
+          -5.351632679471301
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.432
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3096371086247,
+          -5.352811357137235
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30861139418589,
+          -5.352775389654518
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.059
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30861306405578,
+          -5.352775129675922
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31409425165387,
+          -5.352421946231532
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.078
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31419417205775,
+          -5.352229310982578
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31416515454058,
+          -5.3524092501894245
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.083
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3154510294791,
+          -5.3528117347083075
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.078
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31458861158384,
+          -5.352747440892284
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.075
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31432557689675,
+          -5.351897386643405
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31908733315196,
+          -5.352700516286703
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.055
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32331955068321,
+          -5.352691014669932
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.557
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32342845627252,
+          -5.351122708685004
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.204
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32333072583862,
+          -5.352685528672141
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.09
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32362327537527,
+          -5.35253924167633
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.064
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32433271797433,
+          -5.350588128351744
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.079
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32465794387176,
+          -5.350823581768159
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.065
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28812944772562,
+          -5.353190718365862
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.329
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28806310113977,
+          -5.354599375035712
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.065
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28998948193737,
+          -5.353772961422568
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29221482609815,
+          -5.354691591829717
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29213742059675,
+          -5.354693961618091
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.052
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2927216224796,
+          -5.354504917128917
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.192
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29310208576861,
+          -5.354752687313502
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.076
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29252844573575,
+          -5.353944803545777
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.067
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29240622909437,
+          -5.354226526822557
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.063
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29829038907346,
+          -5.35469266786854
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29831235532727,
+          -5.354697811697732
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.091
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29869434165218,
+          -5.3536731911902224
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.064
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30136536732208,
+          -5.3543753775383705
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.135
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29996169288715,
+          -5.3547505224851095
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.104
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30907861801863,
+          -5.354008547999751
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.092
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30907574169679,
+          -5.353871475667998
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.077
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30920049480439,
+          -5.353906130680828
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.076
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31610945044991,
+          -5.3546278682262995
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.153
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31514716118438,
+          -5.354216243170393
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.126
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31614328645246,
+          -5.35462970578061
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.359
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3233177336532,
+          -5.352690930017489
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.383
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28916267640105,
+          -5.354882792485152
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.083
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29020124152747,
+          -5.355323862482975
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.307
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29128653615204,
+          -5.355626986446176
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.117
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2910946676034,
+          -5.355844161265199
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.085
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29096484325319,
+          -5.354849583299528
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.074
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29048765086522,
+          -5.355124651789577
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.072
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2923110578944,
+          -5.355866725687917
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.055
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29034715079682,
+          -5.355942487218705
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.055
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2931930167181,
+          -5.356027452783556
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.399
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.293589616628,
+          -5.355812526443736
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.204
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29232930716982,
+          -5.355871734559894
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.196
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29393108924954,
+          -5.355754286566203
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.185
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2939306402393,
+          -5.355752194468895
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.182
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29382979981796,
+          -5.355545855551602
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.171
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2931095180059,
+          -5.355625295530608
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.124
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29426220089877,
+          -5.356492893044687
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.122
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.292251968015,
+          -5.355622807917764
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.118
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29317031789515,
+          -5.356764176283551
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.108
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29393044202968,
+          -5.355757104640154
+        ]
+      },
+      "properties": {
+        "class_id": 5,
+        "class_name": "bus",
+        "confidence": 0.103
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29345741278436,
+          -5.354985322849384
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.097
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29299673763539,
+          -5.355164686508124
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.088
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29309671163827,
+          -5.355669592983288
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.08
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29266323982249,
+          -5.355917015823279
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.079
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29190087771826,
+          -5.356622126636768
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.072
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29255949023214,
+          -5.356326388370028
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.069
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29305437459041,
+          -5.355070893154647
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.066
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2924272013653,
+          -5.355172168360571
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.066
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29233381488176,
+          -5.3552083439676865
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.061
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29220941938745,
+          -5.3549913291360385
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.057
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2926536622613,
+          -5.3551044369962835
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.055
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29311640120912,
+          -5.356294260892132
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.052
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29393671817526,
+          -5.355818547480285
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.094
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29819098900683,
+          -5.356779423538877
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.112
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2966102122824,
+          -5.355791725779726
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.096
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29680482440048,
+          -5.355883390680033
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.094
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29775862575363,
+          -5.354718511343239
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.079
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29676561382293,
+          -5.356253697025316
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.066
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29668688767524,
+          -5.356218467409583
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29819134389271,
+          -5.356780406539605
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.096
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30218484346123,
+          -5.35673159959518
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.054
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30474316844762,
+          -5.355729890019287
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.086
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31610886418115,
+          -5.35463152400187
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31551441065848,
+          -5.354651157483861
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.072
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31614162746244,
+          -5.354627556211606
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.363
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31659965135798,
+          -5.355682490316175
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.074
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31643460288586,
+          -5.354613613219082
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.062
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32012256734326,
+          -5.356140623380221
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.069
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32005495338403,
+          -5.356363245256539
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.061
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32151709772266,
+          -5.354544848744027
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.127
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32010183155424,
+          -5.35628578271066
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.096
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29054636727102,
+          -5.358700195681265
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.051
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29330822801695,
+          -5.356906082980888
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.155
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29403943655542,
+          -5.357607125649495
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.118
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29294175228954,
+          -5.357360340566492
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.114
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29313655467224,
+          -5.357106196459673
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.094
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29333315143579,
+          -5.357069251601315
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.072
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2930968456358,
+          -5.357584466367727
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.062
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29330744585093,
+          -5.3569271013169
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.054
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29414754456309,
+          -5.356900158929841
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.054
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29296780961788,
+          -5.357521022405003
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29303615614626,
+          -5.357660689315052
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.051
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29404137913396,
+          -5.3576134217570655
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.306
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2946511348465,
+          -5.357432863774683
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.257
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2948032414119,
+          -5.357670706439235
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.133
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29597246072441,
+          -5.358717883499209
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.133
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29434096961735,
+          -5.357504882487463
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.126
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29507345860286,
+          -5.35771487281088
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29553597912287,
+          -5.3573247123128445
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.093
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29462210078715,
+          -5.3574610436097645
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.09
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29434347181339,
+          -5.357552245685551
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.084
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29419309044374,
+          -5.357535229026777
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.079
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29429646299562,
+          -5.357510102916417
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29565074336807,
+          -5.358098138256073
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.066
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2949488260041,
+          -5.357726280371559
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.062
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29422134499036,
+          -5.35752011543858
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.062
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29427883562278,
+          -5.357629133218138
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29448172576333,
+          -5.35743171536754
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29423408086846,
+          -5.356971622642523
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.058
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29485593877986,
+          -5.357765937410683
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.055
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29456764384213,
+          -5.357505340457113
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.055
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2941074606004,
+          -5.357753447323803
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.054
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29424417820361,
+          -5.357519631849087
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29432808537109,
+          -5.357616356587565
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29404276483723,
+          -5.357716166199841
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.052
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29423365468523,
+          -5.357712991464174
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.052
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29825033828405,
+          -5.357401829154089
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.143
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29746836294977,
+          -5.3581693349308415
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.112
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29596990248362,
+          -5.358715240291119
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.091
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29778911291521,
+          -5.357734653338199
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.065
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29599585924339,
+          -5.358725482545311
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.062
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2978314307528,
+          -5.357828353366631
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29760709531826,
+          -5.35775765275619
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30211882039634,
+          -5.357091387701915
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.143
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30221708326285,
+          -5.358053913706713
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.086
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30198985312627,
+          -5.358032595055305
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.083
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30200891777065,
+          -5.3581360324616325
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30072153358138,
+          -5.358770234790337
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.059
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30105380496133,
+          -5.3579403669590935
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30211818619087,
+          -5.35709442395183
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.125
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30307605001065,
+          -5.357424610166469
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.105
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30308282909898,
+          -5.357488519399309
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.087
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30314298591875,
+          -5.357618220815314
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.087
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30200684593787,
+          -5.358136545330439
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30229660168565,
+          -5.358400131032715
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.062
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3033921240558,
+          -5.357622753167353
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30288649238548,
+          -5.358771239747692
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30279155787491,
+          -5.3577480567669955
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.055
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30252616228208,
+          -5.358022181479005
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.054
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30459360415894,
+          -5.358746779803023
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.051
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30762682564006,
+          -5.357302211344271
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.068
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3077653012788,
+          -5.358464241255428
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.059
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30809921217165,
+          -5.35717159761088
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31463620447663,
+          -5.358732546290923
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.084
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3187950253148,
+          -5.357086853515944
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.344
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31862541562074,
+          -5.357360842337947
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.163
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31887470806245,
+          -5.356927251317156
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.095
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31903433654264,
+          -5.356865586687275
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.085
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31862877510441,
+          -5.357206902673526
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.085
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31886458434282,
+          -5.356925235198021
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.077
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31849605228722,
+          -5.357225980914196
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.062
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31872489063112,
+          -5.35706113529654
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32108247216456,
+          -5.358506104206922
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.458
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3208420807448,
+          -5.358503201316915
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.058
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29434407835966,
+          -5.360715439996293
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.076
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30139714560306,
+          -5.360477243619192
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.081
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30211789688074,
+          -5.360031880942568
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.075
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30226941510217,
+          -5.360572662818127
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.068
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30165313729786,
+          -5.360549169883669
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.064
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30125530650817,
+          -5.360364551746124
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.063
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30137655836745,
+          -5.360436461495016
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.063
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30190723832332,
+          -5.360533739960518
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.061
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30127994461901,
+          -5.360307079005637
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30375001137268,
+          -5.359885033251373
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.153
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30246582509929,
+          -5.36063716312985
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.143
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30342367418528,
+          -5.3606015887861185
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.133
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30194514322555,
+          -5.360532797638622
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.119
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30369282064123,
+          -5.359494404099342
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.096
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30315157338062,
+          -5.3600910146240786
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.08
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30307082813943,
+          -5.360179022694196
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.08
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30190768307946,
+          -5.3605339106209575
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.075
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30322817525268,
+          -5.359284990212874
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.068
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30199864883271,
+          -5.360292367373517
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.068
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30306781034942,
+          -5.360682772373838
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.067
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3021144999845,
+          -5.360018256195091
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.066
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30306906885879,
+          -5.360098742460202
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.065
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30418211244135,
+          -5.360719140569946
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.065
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30377602503324,
+          -5.359464579852063
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.065
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30315857943464,
+          -5.36072936744231
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.064
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30399952837882,
+          -5.3599010478407765
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.061
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30190399814785,
+          -5.360420556954631
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30326444494058,
+          -5.360023068929793
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.055
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30351856742936,
+          -5.360610545536082
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.054
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30335440529747,
+          -5.359114416885354
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30416982949411,
+          -5.360727468749598
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.051
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30401312902262,
+          -5.359924045878498
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.104
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30462566087014,
+          -5.36072420194027
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.091
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30487489452489,
+          -5.360465221944754
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.087
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30383364104004,
+          -5.359888147763428
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.086
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30384625031347,
+          -5.360623726116432
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.065
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30383832222611,
+          -5.359862419154322
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.063
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30912042547985,
+          -5.3606526990711725
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.354
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30900435707123,
+          -5.3606687866035205
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31219994944584,
+          -5.360741798790916
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3142278682819,
+          -5.360637680246834
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.078
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31366651273787,
+          -5.358893429199724
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31546913681204,
+          -5.360531518718373
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.185
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31620153354085,
+          -5.360449425019794
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.155
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3138136397022,
+          -5.3604757158804865
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.069
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3189786030638,
+          -5.359155926487189
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.073
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.32107886300676,
+          -5.358641455430185
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.158
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28841235916504,
+          -5.361119224940545
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.173
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28866956472316,
+          -5.361080520652673
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.113
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28802279826013,
+          -5.3605536713994475
+        ]
+      },
+      "properties": {
+        "class_id": 5,
+        "class_name": "bus",
+        "confidence": 0.086
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28819894862629,
+          -5.3612331970688984
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.077
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28802176278842,
+          -5.361231276713167
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.075
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28841762520801,
+          -5.361180706733444
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.058
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28802455388326,
+          -5.360557598412024
+        ]
+      },
+      "properties": {
+        "class_id": 7,
+        "class_name": "truck",
+        "confidence": 0.058
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28806163620528,
+          -5.360721308682959
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.28814644765215,
+          -5.361026029561462
+        ]
+      },
+      "properties": {
+        "class_id": 5,
+        "class_name": "bus",
+        "confidence": 0.051
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29258097299802,
+          -5.361240396203907
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.059
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29972781075237,
+          -5.361237449820636
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.096
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.29999948110483,
+          -5.361349970931417
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.064
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30193350325885,
+          -5.361414647665341
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.137
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30054340742636,
+          -5.361285908266407
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.093
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30215749136711,
+          -5.36085172638074
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.091
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30161827636259,
+          -5.361389969291767
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.084
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30220894783508,
+          -5.36086068637377
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.075
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30088799157687,
+          -5.360788974902966
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.075
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30199651458139,
+          -5.361023375427761
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30257584612897,
+          -5.361336595769235
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.198
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30188147468152,
+          -5.361170196458083
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30305243727722,
+          -5.361038536449691
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.097
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30220868840759,
+          -5.360859988797381
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.09
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30191910012707,
+          -5.3611683540828565
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.089
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30421360517721,
+          -5.3613819160900995
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.075
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30193552393838,
+          -5.361414338576176
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.073
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30199529849466,
+          -5.361025131735379
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.068
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30243926975675,
+          -5.361304929030507
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.067
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30252275945674,
+          -5.361337100518516
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.066
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30243110397204,
+          -5.361319221514205
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.061
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30222589365862,
+          -5.360920597362051
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.059
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30225263517468,
+          -5.360920014070891
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30253899248466,
+          -5.361337368049507
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30215990966647,
+          -5.360848972069658
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.052
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30272724440485,
+          -5.361122837082456
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.052
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30317607310641,
+          -5.360923638079332
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.05
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30464619183864,
+          -5.360847691393882
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.06
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30383785598073,
+          -5.361318512751861
+        ]
+      },
+      "properties": {
+        "class_id": 2,
+        "class_name": "car",
+        "confidence": 0.057
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.30911888676151,
+          -5.360660228376858
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.167
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31421819081551,
+          -5.3610104671687315
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.069
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31422515892335,
+          -5.360635939699542
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31604879440047,
+          -5.360502205027301
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.184
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.31806544274129,
+          -5.361124762574275
+        ]
+      },
+      "properties": {
+        "class_id": 0,
+        "class_name": "person",
+        "confidence": 0.063
+      }
+    }
+  ]
+}
