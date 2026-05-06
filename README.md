@@ -116,7 +116,6 @@ Akses WebGIS di: **http://localhost:5173**
 # **Dokumentasi Hasil Implementasi**
 
 ## **1. Proses Deteksi YOLOv8 di Terminal**
-![alt text](<Screenshot 2026-05-06 130455-1.png>)
 ![alt text](<Screenshot 2026-05-06 130520.png>)
 
 ## **2. Visualisasi WebGIS Multi-Layer (AI + Database)**
@@ -129,28 +128,27 @@ Akses WebGIS di: **http://localhost:5173**
 ![alt text](<Screenshot 2026-05-06 134438.png>)
 ![alt text](<Screenshot 2026-05-06 134458.png>)
 
----
-
 # **Struktur Proyek**
+
+```
 Praktikum10_SIG_123140020/
 │
-├── praktikum7_api/                       # Direktori Backend & AI Spasial
+├── praktikum7_api/            # Direktori Backend & AI Spasial
 │   ├── app/
-│   ├── spatial_ai.py                     # Script utama pipeline YOLOv8
-│   ├── aerial_image.tif                  # Citra GeoTIFF (Excluded in .gitignore)
+│   ├── spatial_ai.py          # Script utama pipeline YOLOv8
+│   ├── aerial_image.tif       # Citra GeoTIFF (Excluded in .gitignore)
 │   ├── main.py
 │   └── requirements.txt
 │
-├── frontend_sig_123140020/               # Direktori Frontend React
+├── frontend_sig_123140020/    # Direktori Frontend React
 │   ├── public/
-│   │   └── hasil_deteksi_ai.geojson      # File output dari spatial_ai.py
+│   │   └── hasil_deteksi_ai.geojson  # File output dari spatial_ai.py
 │   ├── src/
 │   ├── package.json
 │   └── vite.config.js
 │
 └── README.md
-
----
+```
 
 **Anselmus Herpin Hasugian**
 Teknik Informatika — Institut Teknologi Sumatera (ITERA)
